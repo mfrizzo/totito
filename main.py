@@ -1,3 +1,6 @@
+# Maria Fernanda Rizzo 
+# 20210152
+
 from time import sleep 
 import requests
 import utils
