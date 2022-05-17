@@ -223,9 +223,6 @@ def decide_move(board: list, player_id: str):
     if board[0][2] == enemy and board [2][2] == enemy and board[1,2] == "-":
         return [1,2]
     
-    if board[0][0] == enemy and board [0][2] == enemy and board[0,1] == "-":
-        return [0,1]
-    
     if board[1][0] == enemy and board [1][2] == enemy and board[1,1] == "-":
         return [1,1]
     
