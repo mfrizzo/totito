@@ -110,7 +110,20 @@ def decide_move(board: list, player_id: str):
     if board [1][1] == player_id and board [2][1] == player_id and board[0,1] == "-":
         return [0,1]
     
+    if board [1][2] == player_id and board [2][2] == player_id and board[0,2] == "-":
+        return [0,2]
     
+    if board [0][0] == player_id and board [1][1] == player_id and board[2,2] == "-":
+        return [2,2]
+    
+    if board [0][2] == player_id and board [1][1] == player_id and board[2,0] == "-":
+        return [2,0]
+    
+    if board [2][2] == player_id and board [1][1] == player_id and board[0,0] == "-":
+        return [0,0]
+    
+    if board [2][0] == player_id and board [1][1] == player_id and board[0,2] == "-":
+        return [0,2]
 
 # Bloquear mi enemy
 
