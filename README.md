@@ -8,3 +8,12 @@ Luego, cree ifs para defender las posiciones, en caso mi oponente ya tenia sus j
 Puse primero mi estrategia para ganar porque en caso yo y mi oponente tuvieramos jugadas en dos cuadrantes seguidos, yo pudiera ganar primero sin necesitada de bloquearlo. 
 
 Por ultimo, puse como yo creia que fuera los mejores movimientos para ganar contra algun competidor, empezar por la posicion (0,0) y despues jugar en las siguientes posiciones. 
+
+
+Primero, clonar el repositorio al poner el codigo en la terminal:
+
+> '$ git clone https://github.com/mfrizzo/totito'
+
+Para correrlo:
+
+> '$ python main.py o python3 main.py'
